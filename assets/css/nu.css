@@ -1,0 +1,135 @@
+.section .category {
+    position: fixed;
+}
+
+.section .category .category-list {
+    list-style: none;
+    cursor: pointer;
+    margin: 0;
+}
+
+.section .category .category-list .category-item {
+    font-weight: 400;
+    padding: 15px 0 0;
+    margin-left: 0px;
+    color: #040006;
+}
+
+.section .category .category-list .category-item .category-title.collapsed::after {
+    content: " +";
+}
+
+.section .category .category-list .category-item .category-title::after {
+    content: " -";
+}
+
+.section .category .category-list .category-item .sub-list.collapse.show::after {}
+
+.section .category .category-list .category-item .sub-list.collapse::after {}
+
+.section .category .category-list .category-item .sub-list .sub-item {
+    padding-top: 15px;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.section .category .category-list .category-item .sub-list .sub-link {
+    text-decoration: none;
+    color: var(--dark-color)
+}
+
+.section .category .category-list .category-item .sub-list .sub-link:hover {
+    text-decoration: none;
+}
+
+/* filter */
+.filter {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    right: 40px;
+    cursor: pointer;
+    z-index: 100;
+    color: rgb(80, 82, 82);
+    padding: 20px 0;
+}
+
+.filter .sort-select {
+    width: 100px;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+
+.filter .filter-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    list-style: none;
+}
+
+.filter .filter-option .filter-item {
+    margin: 0 10px;
+}
+
+.filter .filter-option .filter-item .filter-link {
+    font-size: 11px;
+}
+
+.filter .filter-option .filter-item .filter-link:hover {
+    text-decoration: none;
+}
+
+.filter .filter-option .filter-item .filter-link i {
+    color: rgb(80, 82, 82);
+    font-size: 12px;
+}
+
+.filter-dialog {
+    width: 100%;
+    background-color: white;
+    opacity: 0.8;
+    top: 8%;
+    left: 0;
+
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 100;
+    padding-top: 80px;
+}
+
+.filter-dialog .content {
+    padding: 0 50px;
+    height: 0;
+}
+
+.filter-dialog .content .content-list .list-color {
+    list-style: none;
+}
+
+.filter-dialog .content .content-list .list-color .color-name {
+    padding: 0 15px 0 25px;
+    color: #505252;
+    height: 60px;
+    width: 100%;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.filter-dialog .content .content-list .list-color .color-checkbox {
+    padding: 20px 50px 0;
+    list-style: none;
+}
+
+.filter-dialog .content .content-list .list-color .checkbox-item {
+    width: 180px;
+    float: left;
+    border: none !important;
+    margin: 0 0 10px;
+    cursor: pointer;
+}
