@@ -145,6 +145,10 @@ $(document).ready(function () {
         $('.chatbox-card').toggleClass('active');
     })
 
+    $('.hiden-chatbox').on('click', function () {
+        $('.chatbox-card').removeClass('active');
+    })
+
     $('#filter-2').on('click', function () {
         $('.product .product-pro .product-list .product-item').removeClass('col-lg-3')
         $('.product .product-pro .product-list .product-item').addClass('col-lg-6')
