@@ -287,4 +287,12 @@ $(document).ready(function () {
     $('.login-form .form-content .form-box .forgot-pass').on('click', () => {
         $('.form-content .register-box').toggleClass('active');
     })
+
+    $('#contact-mockup').on('click', () => {
+        $('.contact').addClass('active');
+    })
+
+    $('.contact .contact-content .content-box .box-close').on('click', () => {
+        $('.contact').removeClass('active');
+    })
 });

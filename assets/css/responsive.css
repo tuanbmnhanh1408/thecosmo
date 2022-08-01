@@ -23,6 +23,16 @@
     .main form>div>input {
         flex: unset;
     }
+
+    .contact .contact-content {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+
+    .contact .contact-content .content-box {
+        padding: 5px;
+    }
 }
 
 @media (min-width:768px) {
@@ -224,6 +234,16 @@
 
     .sidebar .sidebar-customer {
         padding: 20px 5px;
+    }
+
+    .contact .contact-content {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+
+    .contact .contact-content .content-box {
+        padding: 0 40px;
     }
 }
 

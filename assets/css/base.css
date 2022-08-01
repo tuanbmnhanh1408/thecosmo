@@ -1369,3 +1369,140 @@ p {
 .forgot-overlay .forgot-form .forgot-button button {
     width: 100%;
 }
+
+/* contact */
+
+.contact {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 1001;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.contact .contact-content {
+    height: 80vh;
+    width: 80vw;
+    z-index: 1000;
+    position: absolute;
+
+    top: 10%;
+    bottom: 0;
+    left: 10%;
+    right: 10%;
+
+    z-index: 1000;
+    background: #fff;
+}
+
+.contact .contact-content .content-box {
+    padding: 0 150px;
+    margin-top: 60px;
+}
+
+.contact .contact-content .content-box h3 {
+    font-size: 16px;
+    color: var(--dark-color);
+    text-transform: uppercase;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.contact .contact-content .content-box .content-text span,
+.contact .contact-content .content-box .content-text h4 {
+    font-size: 11px;
+    color: var(--dark-color);
+    padding: 20px 0;
+}
+
+.contact .contact-content .content-box .content-text span {
+    display: block;
+    padding-top: 10px;
+}
+
+.contact .contact-content .content-box form input {
+    height: 45px;
+    padding: 10px;
+    font-size: 11px;
+    width: 100%;
+    margin-bottom: 15px;
+
+    border: none;
+    border-bottom: 1px solid rgba(225, 225, 225);
+}
+
+.contact .contact-content .content-box .content-confirm {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.contact .contact-content .content-box .content-confirm .confirm-box {
+    border: 1px solid rgb(225, 225, 225);
+    padding: 5px 10px;
+}
+
+.contact .contact-content .content-box .content-confirm .confirm-box>div>input {
+    width: 30px;
+    height: 30px;
+}
+
+.contact .contact-content .content-box .content-confirm .confirm-box>p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--dark-color);
+    text-transform: none;
+}
+
+.contact .contact-content .content-box .content-confirm .confirm-box .confirm-image {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact .contact-content .content-box .content-confirm .confirm-box .confirm-image img {
+    background-size: 32px;
+    height: 32px;
+    margin: 0 13px 0 13px;
+    width: 32px;
+}
+
+.contact .contact-content .content-box .content-confirm .confirm-box .confirm-image span {
+    cursor: default;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.contact .contact-content .content-box .content-confirm .confirm-box .confirm-image>div>a {
+    font-size: 8px;
+    font-weight: 400;
+    color: var(--dark-color);
+}
+
+.contact .contact-content .content-box .content-button {
+    margin: 20px auto;
+    max-width: 240px;
+}
+
+.contact .contact-content .content-box .content-button button {
+    width: 100%;
+}
+
+.contact .contact-content .content-box .box-close {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    cursor: pointer;
+}
+
+.contact .contact-content .content-box .box-close>i {
+    font-size: 40px;
+    color: var(--dark-color);
+}
