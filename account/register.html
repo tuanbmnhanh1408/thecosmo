@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/nu.css">
+    <link rel="stylesheet" href="../assets/css/page.css">
+    <link rel="stylesheet" href="../assets/css/products.css">
+    <link rel="stylesheet" href="../assets/css/account.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <title>THE COSMO - Thời Trang Nam Nữ Xu Hướng Mới Nhất</title>
+</head>
+
+<body>
+    <div class="header-sp"></div>
+
+    <header class="header">
+        <div class="header-top d-flex align-items-center justify-content-between gap-2">
+            <div class="header-search">
+                <a id="icon-bars" class="p-2 d-lg-none mobile-icon bars">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+                <a class="p-2 d-lg-none mobile-icon close-icon">
+                    <i class="fa-solid fa-xmark"></i>
+                </a>
+                <form action="" class="search-form d-none d-lg-inline-block">
+                    <label for="search-box" class="fas fa-search cursor-pointer"></label>
+                    <input class="btn-search" type="search" name="" id="search-box" placeholder="Tìm kiếm">
+                </form>
+            </div>
+
+            <div class="mobile-menu">
+                <div class="px-3">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a href="#" class="item-link">
+                                <i class="fa-solid fa-registered"></i>
+                                ĐĂNG KÝ
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="item-link">
+                                <i class="fa-solid fa-right-to-bracket"></i>
+                                ĐĂNG NHẬP
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="item-link d-flex align-items-center justify-content-between">
+                                <span>NỮ</span>
+                                <span>+</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="item-link d-flex align-items-center justify-content-between">
+                                <span>NAM</span>
+                                <span>+</span>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="item-link">
+                                <span>BIG SUMMER SALE</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <h1 class="header-logo">
+                <a href="../index.html" class="logo-link">
+                    <img class="logo-image" src="https://theme.hstatic.net/1000289385/1000618130/14/logo.png?v=1985"
+                        alt="">
+                </a>
+            </h1>
+
+            <div class="header-auth">
+                <ul class="auth-list d-flex align-items-center justify-content-between mb-0">
+                    <li class="auth-item auth-mobile-item d-none d-lg-inline-block">
+                        <a href="#" class="auth-link" id="login">Đăng nhập</a>
+                    </li>
+                    <li class="auth-item auth-mobile-item d-none d-lg-inline-block">
+                        <a href="#" class="auth-link">/</a>
+                    </li>
+                    <li class="auth-item auth-mobile-item d-none d-lg-inline-block">
+                        <a href="#" class="auth-link" id="register">Đăng ký</a>
+                    </li>
+                    <li class="auth-item auth-mobile-item d-inline-block d-lg-none">
+                        <form action="" class="search-form">
+                            <label for="search-box" class="fas fa-search label-mobile" id="label-mobile"></label>
+                            <input class="btn-search search-box d-none" type="search" name="search-box" id="search-box"
+                                placeholder="Tìm kiếm">
+                        </form>
+                    </li>
+                    <li class="auth-item ml-2" id="cart-icon">
+                        <a href="#" class="shopping-icon mobile-icon p-2">
+                            <i class="fa-solid fa-bag-shopping mobile-icon"></i>
+                        </a>
+                        <span class="cart-number">0</span>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="header-menu">
+            <ul class="menu-list mb-0">
+                <li class="menu-item menu-item--selected">
+                    <a class="menu-link" href="../collections/nu.html">NỮ</a>
+                    <div class="item-content bg-white ">
+                        <div class="row text-left container mx-auto">
+                            <div class="content-container col-4 py-5">
+                                <p class="content-title">
+                                    <a href="#" class="content-link">HÀNG MỚI VỀ</a>
+                                </p>
+                                <ul class="content-list w-100 flex-md-column d-flex">
+                                    <li class="content-item ">
+                                        <a href="../pages/index.html" class="content-link w-100">Áo thun Nappy Zoo x
+                                            Jingu</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../pages/index.html" class="content-link w-100">Sweatset Martina</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../pages/index.html" class="content-link w-100">Đầm Phoebe</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../collections/nu.html" class="content-link w-100">Xem tất cả</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../pages/index.html" class="content-link w-100">Áo thun Marisol
+                                            Tank</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-4 py-5 content-container">
+                                <p class="content-title">
+                                    <a href="#" class="content-link">SẢN PHẨM NỮ</a>
+                                </p>
+                                <ul class="content-list w-100 flex-md-column d-flex">
+                                    <li class="content-item">
+                                        <a href="../collections/nu.html" class="content-link w-100">Áo kiểu nữ</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../collections/nu.html" class="content-link w-100">Áo thun nữ</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../collections/nu.html" class="content-link w-100">Áo sơ mi nữ</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="./collections/nu.html" class="content-link w-100">Đầm nữ</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../collections/nu.html" class="content-link w-100">Áo khoác nữ</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../collections/nu.html" class="content-link w-100">Váy nữ</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../collections/nu.html" class="content-link w-100">Quần shorts nữ</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../collections/nu.html" class="content-link w-100">Quần dài nữ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-4 py-5 content-container">
+                                <p class="content-title">
+                                    <a href="#" class="content-link">BỘ SƯU TẬP</a>
+                                </p>
+                                <ul class="content-list w-100 flex-md-column d-flex">
+                                    <li class="content-item">
+                                        <a href="../collections/big-summer-sale.html" class="content-link w-100">Spring
+                                            Bouquet</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../collections/big-summer-sale.html"
+                                            class="content-link w-100">Wanderlust #4</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item menu-item--selected">
+                    <a class="menu-link" href="../collections/nam.html">NAM</a>
+                    <div class="item-content bg-white ">
+                        <div class="row text-left container mx-auto">
+                            <div class="content-container col-4 py-5">
+                                <p class="content-title">
+                                    <a href="#" class="content-link">HÀNG MỚI VỀ</a>
+                                </p>
+                                <ul class="content-list w-100 flex-md-column d-flex">
+                                    <li class="content-item ">
+                                        <a href="../pages/index.html" class="content-link w-100">Áo thun Nappy Zoo x
+                                            Jingu</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../pages/index.html" class="content-link w-100">Sweatset Martin</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../pages/index.html" class="content-link w-100">Sơ mi Remy</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../collections/nam.html" class="content-link w-100">Xem tất cả</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-4 py-5 content-container">
+                                <p class="content-title">
+                                    <a href="#" class="content-link">SẢN PHẨM NAM</a>
+                                </p>
+                                <ul class="content-list w-100 flex-md-column d-flex">
+                                    <li class="content-item">
+                                        <a href="../collections/nam.html" class="content-link w-100">Áo sơ mi nam</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../collections/nam.html" class="content-link w-100">Áo thun nam</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../collections/nam.html" class="content-link w-100">Áo khoác nam</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../collections/nam.html" class="content-link w-100">Quần dài nam</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-4 py-5 content-container">
+                                <p class="content-title">
+                                    <a href="#" class="content-link">BỘ SƯU TẬP</a>
+                                </p>
+                                <ul class="content-list w-100 flex-md-column d-flex">
+                                    <li class="content-item">
+                                        <a href="../collections/big-summer-sale.html" class="content-link w-100">Urban
+                                            Capsule</a>
+                                    </li>
+                                    <li class="content-item">
+                                        <a href="../collections/big-summer-sale.html"
+                                            class="content-link w-100">Wanderlust #4</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="../collections/big-summer-sale.html">BIG SUMMER SALE</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="auth-form">
+        <div class="form-icon text-center" id="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="form-content">
+            <h2 class="form-title d-flex align-items-center text-center justify-content-between flex-md-column">
+                <i class="fa-solid fa-user"></i>
+                <p>Đăng nhập</p>
+            </h2>
+            <form action="" class="form-group">
+                <input required type="text" placeholder="Email"
+                    class="form-input form-control mb-3 border-0 border-bottom-1">
+                <input required type="password" placeholder="Password"
+                    class="form-input form-control mb-3 border-0 border-bottom-1">
+
+                <div class="form-link" id="forgot-password">
+                    <a href="#" class="font-weight-bold">Bạn quên mật khẩu ?</a>
+                </div>
+
+                <div class="d-block text-center">
+                    <button class="btn btn-primary">ĐĂNG NHẬP</button>
+                </div>
+
+                <div class="sub-text">
+                    <span class="d-block text-center mt-4 mb-2 font-weight-bold">Bạn chưa có tài khoản? Đăng ký tài
+                        khoản</span>
+                </div>
+                <div class="d-block text-center register-btn">
+                    <a class="btn btn-primary text-light">TẠO TÀI KHOẢN</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="cart">
+        <div class="form-icon text-center" id="cart-close">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="cart-content">
+            <h3 class="form-title d-flex align-items-center text-center justify-content-between flex-column">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <p>GIỎ HÀNG</p>
+            </h3>
+        </div>
+        <div class="cart-empty d-none">
+            <h2 class="d-block text-center">Giỏ hàng trống</h2>
+            <div class="cart-btn">
+                <a class="btn btn-primary text-light">TIẾP TỤC MUA SẮM</a>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <div class="d-flex align-items-stretch justify-content-between">
+                <a href="../products/index.html" class="item-image">
+                    <img class="w-100"
+                        src="https://product.hstatic.net/1000289385/product/mausac_cam_tank_bf72f757cec24b1aa7a0f0363ef4d481_medium.jpg"
+                        alt="">
+                </a>
+                <div class="item-info">
+                    <a href="../products/index.html" class="info-title">ÁO THUN NỮ MARISOL CROPPED TANK</a>
+                    <div class="item-color">
+                        <span class="color--cam" data-color=""></span>
+                    </div>
+                    <div class="item-size">
+                        <span>Kích thước</span>
+                        <span data-size="">XS</span>
+                    </div>
+                    <div class="item-quantity">
+                        <span>Số lượng</span>
+                        <div class="item-amount" id="fix_cart_amount">
+                            <a href="#" class="text-center">-</a>
+                            <span class="text-center">1</span>
+                            <a href="#" class="text-center">+</a>
+                        </div>
+                    </div>
+                    <div class="item-price">
+                        <span class="">199,000₫</span>
+                    </div>
+                </div>
+
+                <a href="#" class="item-remove align-self-center"><i class="fa fa-trash"></i></a>
+            </div>
+        </div>
+
+        <div class="summary-item">
+            <div class="product-summary d-flex align-items-center justify-content-between">
+                <div class="poduct-total">
+                    <span class="number">1</span>
+                    <span>Sản phẩm</span>
+                </div>
+                <span class="poduct-money">Tổng tiền</span>
+                <span class="poduct-total-money">199,000₫</span>
+            </div>
+
+            <div class="product-button">
+                <a href="../carts/index.html" class="btn btn-primary">Xem giỏ hàng</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="register-form">
+        <div class="form-content">
+            <h3 class="form-heading">
+                Tạo tài khoản
+            </h3>
+
+            <form action="" class="form-group form-box">
+                <div class="mt-4 d-flex align-items-center justify-content-between">
+                    <label for="firstname">
+                        <i class="fa-solid fa-user"></i>
+                    </label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Họ" required class="form-control">
+                </div>
+                <div class="mt-4 d-flex align-items-center justify-content-between">
+                    <label for="lastname">
+                        <i class="fa-solid fa-user"></i>
+                    </label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Tên" required class="form-control">
+                </div>
+                <div class="mt-4 d-flex align-items-center justify-content-between">
+                    <label for="email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </label>
+                    <input type="email" id="email" name="email" placeholder="Email" required class="form-control">
+                </div>
+                <div class="mt-4 d-flex align-items-center justify-content-between">
+                    <label for="password">
+                        <i class="fa-solid fa-lock"></i>
+                    </label>
+                    <input type="password" id="password" name="password" placeholder="Mật khẩu" required
+                        class="form-control">
+                </div>
+                <div class="text-center mt-4">
+                    <button class="btn btn-send">Gửi</button>
+                </div>
+                <div class="text-center mt-4">
+                    <button class="btn btn-cancel">Hủy</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <footer class="pt-5 bg-color--xam">
+        <div class="footer-top text-center">
+            <i class="d-sm-none d-md-block fa-solid fa-envelope footer-icon"></i>
+            <p class="color--dark font-md-size">ĐĂNG KÝ NHẬN TIN</p>
+        </div>
+        <div class="footer-content">
+            <div class="container footer-container">
+                <form action="" class="footer-form text-center">
+                    <div class="mb-4 mx-2">
+                        <input type="text" required name="email" placeholder="Email" id="email" class="text-center">
+                    </div>
+
+                    <div class="form-submit pb-3">
+                        <button type="submit" class="btn btn-dark">
+                            ĐĂNG KÝ
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer-app text-center">
+            <a href="https://play.google.com/store/apps/details?id=vn.thecosmo"
+                class="app-link d-sm-none d-md-inline-block">
+                <i class="fa-brands fa-google-play"></i>
+            </a>
+            <a href="https://itunes.apple.com/us/app/thecosmo/id1423539989?mt=8"
+                class="app-link d-sm-none d-md-inline-block">
+                <i class="fa-brands fa-apple"></i>
+            </a>
+            <a href="https://itunes.apple.com/us/app/thecosmo/id1423539989?mt=8" class="d-inline-block d-md-none">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <span class="app-text d-inline-block fs-4 d-md-none">DOWNLOAD APP</span>
+            </a>
+            <span class="app-text d-none fs-4 d-md-block">DOWNLOAD APP</span>
+        </div>
+    </footer>
+
+    <div class="footer-sub py-md-5 py-4">
+        <div class="container">
+            <div class="row mobile-footer mx-4 mx-md-auto">
+                <div class="col-md-3 sub-content">
+                    <i class="fa-solid fa-angle-down d-sm-inline-block d-md-none"></i>
+                    <span class="content-text d-inline-block d-md-block mb-md-5">Hỗ trợ mua hàng</span>
+
+                    <ul class="content-list d-none d-md-block">
+                        <li class="content-item">
+                            <a href="https://thecosmo.vn/pages/he-thong-showroom" class="content-link">Địa chỉ</a>
+                        </li>
+                        <li class="content-item">
+                            <a href="https://thecosmo.vn/pages/huong-dan-chon-size" class="content-link">Hướng dẫn chọn
+                                size</a>
+                        </li>
+                        <li class="content-item">
+                            <a href="https://thecosmo.vn/pages/thanh-toan" class="content-link">Hướng dẫn thanh toán</a>
+                        </li>
+                        <li class="content-item">
+                            <a href="https://thecosmo.vn/pages/chinh-sach-doi-tra" class="content-link ">Đổi trả &amp;
+                                vận
+                                chuyển</a>
+                        </li>
+                        <li class="content-item">
+                            <a href="https://thecosmo.vn/pages/privacy-policy" class="content-link ">Chính sách bảo
+                                mật</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 sub-content">
+                    <i class="fa-solid fa-angle-down d-sm-inline-block d-md-none"></i>
+
+                    <span class="content-text d-inline-block d-md-block mb-md-5">Giới thiệu về công ty</span>
+                    <ul class="content-list d-none d-md-block">
+                        <li class="content-item">
+                            <a href="https://thecosmo.vn/pages/about-us" class="content-link">Về chúng tôi</a>
+                        </li>
+                        <li class="content-item">
+                            <a href="https://thecosmo.vn/pages/co-hoi-nghe-nghiep" class="content-link">Cơ hội nghề
+                                nghiệp</a>
+                        </li>
+                        <li class="content-item">
+                            <a href="https://thecosmo.vn/pages/lien-he" class="content-link">Liên hệ</a>
+                        </li>
+                        <li class="content-item">
+                            <a href="https://thecosmo.vn/pages/lien-he" class="content-link">HOTLINE 1900 54 54 57</a>
+                        </li>
+                        <li class="content-item">
+                            <a href="https://thecosmo.vn/pages/lien-he" class="content-link">EMAIL
+                                contact@thecosmo.vn</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 sub-content">
+                    <i class="fa-solid fa-angle-down d-sm-inline-block d-md-none"></i>
+
+                    <span class="content-text d-inline-block d-md-block mb-md-5">Social media </span>
+                    <ul class="content-list d-none d-md-block">
+                        <li class="content-item">
+                            <a href="https://www.facebook.com/thecosmovn/" class="content-link">Facebook</a>
+                        </li>
+                        <li class="content-item">
+                            <a href="https://www.instagram.com/thecosmovn/" class="content-link">Instagram</a>
+                        </li>
+                        <li class="content-item">
+                            <a href="https://www.facebook.com/thecosmovn/" class="content-link ">T2 - CN (8h00 -
+                                23h00)</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 sub-content">
+                    <i class="fa-solid fa-angle-down d-sm-inline-block d-md-none"></i>
+
+                    <span class="content-text d-inline-block d-md-block mb-md-5">TẢI ỨNG DỤNG</span>
+                    <ul class="content-list d-none d-md-block">
+                        <li class="content-item">
+                            <a href="https://itunes.apple.com/us/app/thecosmo/id1423539989?mt=8"
+                                class="content-link">iOs</a>
+                        </li>
+                        <li class="content-item">
+                            <a href="https://play.google.com/store/apps/details?id=vn.thecosmo"
+                                class="content-link">Android</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="register-overlay">
+        <div class="overlay">
+            <div class="cover">
+                <div class="content">
+                    <div class="close-button">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+
+                    <div class="register-heading">
+                        <h3>tạo tài khoản</h3>
+                    </div>
+
+                    <form action="" class="register-form">
+                        <div class="form-group d-flex align-items-center justify-content-between">
+                            <input type="text" class="form-control" placeholder="Tên" required>
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="form-group d-flex align-items-center justify-content-between">
+                            <input type="password" class="form-control" placeholder="Mật khẩu" required>
+                            <input type="number" class="form-control" placeholder="Số điện thoại" required>
+                        </div>
+                        <div class="form-group d-flex align-items-center justify-content-between">
+                            <input type="text" class="form-control" placeholder="Ngày sinh">
+                            <select name="" id="" class="form-control">
+                                <option value="">Giới tính</option>
+                                <option value="nam">Nam</option>
+                                <option value="nữ">Nữ</option>
+                            </select>
+                        </div>
+                        <div class="register-button">
+                            <button class="btn btn-primary">Tạo tài khoản</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="forgot-overlay">
+        <div class="overlay">
+            <div class="cover">
+                <div class="content">
+                    <div class="close-button">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+
+                    <div class="forgot-heading">
+                        <h3>Phục hồi mật khẩu</h3>
+                    </div>
+
+                    <p class="forgot-message">Vui lòng nhập email và làm theo hướng dẫn để phục hồi mật khẩu</p>
+
+                    <form action="" class="forgot-form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+
+                        <div class="forgot-button">
+                            <button class="btn btn-primary">Nhận email</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="chatbox">
+        <div class="chatbox-btn">
+            <div class="d-flex align-items-center">
+                <div class="chatbox-content">
+                    <svg width="36" height="36" viewBox="0 0 36 36">
+                        <path fill="white"
+                            d="M1 17.99C1 8.51488 8.42339 1.5 18 1.5C27.5766 1.5 35 8.51488 35 17.99C35 27.4651 27.5766 34.48 18 34.48C16.2799 34.48 14.6296 34.2528 13.079 33.8264C12.7776 33.7435 12.4571 33.767 12.171 33.8933L8.79679 35.3828C7.91415 35.7724 6.91779 35.1446 6.88821 34.1803L6.79564 31.156C6.78425 30.7836 6.61663 30.4352 6.33893 30.1868C3.03116 27.2287 1 22.9461 1 17.99ZM12.7854 14.8897L7.79161 22.8124C7.31238 23.5727 8.24695 24.4295 8.96291 23.8862L14.327 19.8152C14.6899 19.5398 15.1913 19.5384 15.5557 19.8116L19.5276 22.7905C20.7193 23.6845 22.4204 23.3706 23.2148 22.1103L28.2085 14.1875C28.6877 13.4272 27.7531 12.5704 27.0371 13.1137L21.673 17.1847C21.3102 17.4601 20.8088 17.4616 20.4444 17.1882L16.4726 14.2094C15.2807 13.3155 13.5797 13.6293 12.7854 14.8897Z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="chatbox-card">
+            <div class="card-content">
+                <div class="content-nav">
+                    <div class="content-logo d-inline-block">
+                        <img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.18169-1/10850172_705728496203152_8825166211328421184_n.jpg?stp=cp0_dst-jpg_p80x80&_nc_cat=103&ccb=1-7&_nc_sid=dbb9e7&_nc_ohc=00vz-FI9nYQAX8leekJ&_nc_ht=scontent.fhan2-4.fna&oh=00_AT_Fy4K8brLu2Q8h4qXNSA8Q-pNSx_B9Sz7fmVTcxNIjlg&oe=62FE3832"
+                            alt="" class="content-image">
+                    </div>
+                    <div class="content-viewbox">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div class="">
+                                <div class="">
+                                    <div aria-label="Xem thêm" class="" role="button" tabindex="0"><svg width="32"
+                                            height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16Z"
+                                                fill="black" fill-opacity="0.04"></path>
+                                            <path
+                                                d="M11.7222 16C11.7222 16.9665 10.9387 17.75 9.97217 17.75C9.00567 17.75 8.22217 16.9665 8.22217 16C8.22217 15.0335 9.00567 14.25 9.97217 14.25C10.9387 14.25 11.7222 15.0335 11.7222 16Z"
+                                                fill="black"></path>
+                                            <path
+                                                d="M17.7499 16C17.7499 16.9665 16.9664 17.75 15.9999 17.75C15.0334 17.75 14.2499 16.9665 14.2499 16C14.2499 15.0335 15.0334 14.25 15.9999 14.25C16.9664 14.25 17.7499 15.0335 17.7499 16Z"
+                                                fill="black"></path>
+                                            <path
+                                                d="M22.0277 17.75C22.9942 17.75 23.7777 16.9665 23.7777 16C23.7777 15.0335 22.9942 14.25 22.0277 14.25C21.0612 14.25 20.2777 15.0335 20.2777 16C20.2777 16.9665 21.0612 17.75 22.0277 17.75Z"
+                                                fill="black"></path>
+                                        </svg>
+                                        <div class="n00je7tq arfg74bv qs9ysxi8 k77z8yql i09qtzwb n7fi1qx3 b5wmifdl hzruof5a pmk7jnqg j9ispegn kr520xx4 c5ndavph art1omkt ot9fgl3s rnr61an3"
+                                            data-visualcompletion="ignore"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="">
+                                    <div aria-label="đóng" class="" role="button" tabindex="0"><svg width="32"
+                                            height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16Z"
+                                                fill="black" fill-opacity="0.04"></path>
+                                            <path
+                                                d="M22.0278 15.0278C22.5647 15.0278 23 15.4631 23 16.0001C23 16.537 22.5647 16.9723 22.0278 16.9723L9.97222 16.9723C9.43528 16.9723 9 16.537 9 16.0001C9 15.4631 9.43528 15.0278 9.97222 15.0278L22.0278 15.0278Z"
+                                                fill="black"></path>
+                                        </svg>
+                                        <div class="n00je7tq arfg74bv qs9ysxi8 k77z8yql i09qtzwb n7fi1qx3 b5wmifdl hzruof5a pmk7jnqg j9ispegn kr520xx4 c5ndavph art1omkt ot9fgl3s rnr61an3"
+                                            data-visualcompletion="ignore"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-title">
+                        <strong>Chat với The Cosmo VN</strong>
+                    </div>
+
+                    <div class="content-sub">
+                        <p>Hi bạn! Bạn cần hỗ trợ về sản phẩm nào cho mình biết nha :)</p>
+                    </div>
+
+                    <div class="content-btn">
+                        <button class="btn">Bắt đầu chat</button>
+                    </div>
+
+                    <div class="content-modifier text-center">
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                        <span>Do Messenger cung cấp</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>

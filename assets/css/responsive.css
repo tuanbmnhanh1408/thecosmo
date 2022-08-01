@@ -1,3 +1,30 @@
+@media (max-width:450px) {
+    .cart {
+        padding: 0 10px;
+    }
+
+    .main form .previous-link {
+        margin-bottom: 15px;
+        display: block;
+        text-align: center;
+    }
+
+    .main form .redirect {
+        text-align: center;
+        float: unset;
+    }
+
+    .sidebar .sidebar-code .code-left,
+    .sidebar .sidebar-code .code-right {
+        flex: 1;
+    }
+
+    .main form>div>select,
+    .main form>div>input {
+        flex: unset;
+    }
+}
+
 @media (min-width:768px) {
     .w-md-50 {
         width: 50% !important;
@@ -12,7 +39,7 @@
     }
 
     .image img {
-        height: 100vh;
+        max-height: 80vh;
     }
 
 
@@ -39,6 +66,10 @@
 
     .d-sm-none {
         display: none;
+    }
+
+    .image img {
+        max-height: 50vh;
     }
 
     /* footer-sub */
@@ -85,6 +116,115 @@
 
     }
 
+    .cSlider--nav>div>div>div {
+        width: 80px !important;
+        height: 80px !important;
+        margin-bottom: 5px;
+    }
+
+    .product-order .order-heading,
+    .product-size .size-heading,
+    .product-benefit .benefit-heading,
+    .product-salient .salient-heading h3,
+    .product-image .image-heading,
+    .product-info .info-heading {
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    .product-info {
+        margin-top: 30px;
+    }
+
+    .product-info p {
+        font-size: 15px;
+    }
+
+    .content-description .content-hot .hot-text {
+        padding: 10px 0;
+        font-size: 26px;
+    }
+
+    .content-description .content-text {
+        padding: 0;
+    }
+
+    .product-subslide .subslide-content {
+        padding: 10px;
+    }
+
+    .product-benefit .benefit-box>div {
+        margin: 0 0 30px 0;
+    }
+
+    .product-size {
+        margin: 0;
+    }
+
+    .product-subslide .subslide-content .subslide-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .commit-content>span,
+    .commit-content>h4 {
+        font-size: 10px;
+    }
+
+    .product-subslide .subslide-content .commit-content>p,
+    .product-subslide .subslide-content .commit-content>p span {
+        font-size: 9px !important;
+    }
+
+    .product-page-detail .form-detail .detail-size {
+        padding: 0;
+    }
+
+    .product-page-detail .form-detail .guide-size {
+        padding: 10px 0;
+    }
+
+    .product-page-detail .form-detail .guide-size p {
+        margin-bottom: 0;
+    }
+
+    .product-page .product-page-detail .form-detail {
+        margin-top: 10px;
+    }
+
+    .product-suggest {
+        margin-bottom: 20px;
+    }
+
+    .pop-size .size-box {
+        height: 40vh;
+        width: unset;
+        padding: 0;
+    }
+
+    .overlay .cover .content .register-form>div {
+        flex-wrap: wrap;
+    }
+
+    .shopcart-item .shopcart-total .total-money {
+        width: 100%;
+    }
+
+    .shopcart-view {
+        padding-top: 0;
+    }
+
+    .shopcart-view .shopcart-item {
+        margin: 0;
+    }
+
+    .sidebar .sidebar-customer h3 {
+        font-size: 14px;
+    }
+
+    .sidebar .sidebar-customer {
+        padding: 20px 5px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -110,6 +250,14 @@
         border: none;
         border-bottom: 1px solid #eaeaea;
     }
+
+    .p-40 {
+        padding: 0 40px;
+    }
+
+    /* .collapse:not(.show) {
+        display: block;
+    } */
 }
 
 @media (max-width: 992px) {
@@ -149,4 +297,49 @@
     .header {
         height: 75px
     }
+
+    .content-description .content-hot {
+        margin-top: 40px;
+    }
+
+    .product-suggest .suggest-box .suggest-list {
+        flex-wrap: wrap;
+    }
+
+    .product-page {
+        margin-bottom: 40px;
+    }
+
+    .product-page>div:first-child {
+        border-right: 5px solid var(--dark-color);
+    }
+
+    .shopcart-view .shopcart-item .shopcart-content .shopcart-image {
+        width: 97px;
+    }
+
+    .shopcart-content .shopcart-info {
+        width: calc(100% - 100px);
+        display: block;
+    }
+
+    .shopcart-content .item-remove {
+        top: 10%;
+        right: 10%;
+    }
+
+    .main {
+        order: 2;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+
+    .pay-page .delivery {
+        display: none;
+    }
+
+    .h-100vh {
+        height: auto;
+    }
+
 }

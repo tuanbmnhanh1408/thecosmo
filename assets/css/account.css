@@ -1,0 +1,126 @@
+.header-sp {
+    height: 105px;
+}
+
+.register-form,
+.login-form {
+    margin: 20px 0;
+}
+
+.login-form .form-content {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.register-form .form-content .form-heading,
+.login-form .form-content .form-heading {
+    line-height: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 0;
+
+    /* margin: 30px 0 20px 0px; */
+    text-align: center;
+    color: var(--dark-color);
+    font-weight: 400px;
+}
+
+.login-form .form-content .form-box {}
+
+.login-form .form-content .form-box input {
+    padding: 6px 12px;
+    height: 34px;
+    margin-top: 25px;
+    color: var(--dark-color);
+
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.login-form .form-content .form-box a {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px 0;
+
+    font-size: 13px;
+    display: block;
+    text-align: right;
+}
+
+.login-form .form-content .form-box button {
+    width: 100%;
+}
+
+.login-form .form-content span,
+.login-form .form-content span .register-link {
+    font-size: 11px;
+    color: #7f7f7f;
+    text-transform: none;
+}
+
+.login-form .form-content .register-box {
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    padding: 10px 15px 15px 15px;
+    display: none;
+}
+
+.login-form .form-content .register-box>div>p {
+    color: #4091BD;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+
+    border-bottom: 1px solid;
+    font-size: 16px;
+    text-transform: none;
+}
+
+.login-form .form-content .register-box form label {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.login-form .form-content .register-box form input {
+    display: inline-block;
+    width: calc(100% - 30px);
+    height: 37px;
+}
+
+.register-form .form-content .form-box .btn-send,
+.login-form .form-content .register-box form .btn-send {
+    background: #000;
+    max-width: 145px;
+}
+
+.register-form .form-content .form-box .btn-send:hover,
+.login-form .form-content .register-box form .btn-send:hover {
+    color: #fff;
+}
+
+.register-form .form-content .form-box .btn-cancel,
+.login-form .form-content .register-box form .btn-cancel {
+    max-width: 145px;
+    color: #000;
+    border: 1px solid var(--dark-color);
+}
+
+.register-form .form-content .form-box .btn-cancel:hover,
+.login-form .form-content .register-box form .btn-cancel:hover {
+    background: #fff;
+}
+
+.register-form .form-content .form-box label {
+    margin: 0 10px 0 0;
+}
+
+.register-form .form-content .form-box input {
+    height: 38px;
+}
+
+.register-form .form-content .form-box {
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    padding: 10px 15px 15px 15px;
+    max-width: 335px;
+    margin: 0 auto;
+}

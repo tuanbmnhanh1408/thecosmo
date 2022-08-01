@@ -1,0 +1,720 @@
+.page-header {
+    height: 100px;
+}
+
+.page-header .page-logo {
+    height: 100%;
+}
+
+.page-header .page-logo .logo-link {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-header .page-logo .logo-link img {
+    height: 30px;
+}
+
+/* viewbox heading */
+.viewbox-heading>h3 {
+    padding: 10px 0 15px;
+    color: rgb(132, 132, 132);
+    font-size: 30px;
+    font-weight: bold;
+
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* slide */
+/* .cSlider--single .cSlider__item,
+.cSlider--single .cSlider__item img {
+    height: 600px;
+    cursor: pointer;
+}
+
+.viewbox-content {
+    height: 600px;
+}
+
+.content-image {
+    height: 600px;
+}
+*/
+.cSlider--nav {
+    width: 80px;
+    position: absolute;
+    overflow: hidden;
+    touch-action: pan-y;
+    top: 0;
+    right: -80px;
+    height: 100%;
+}
+
+.cSlider--nav>div>div>div {
+    width: 80px !important;
+    height: 100px !important;
+    margin-bottom: 5px;
+}
+
+.slick-list {
+    height: 100% !important;
+}
+
+.cSlider--nav .cSlider__item .vertical-image {
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: left;
+    position: relative;*/
+    height: 100%;
+    cursor: pointer;
+    filter: invert(15%);
+}
+
+.cSlider--nav .cSlider__item.is-active .vertical-image {
+    filter: invert(0%);
+}
+
+.cSlider--nav .cSlider__item .vertical-image:hover {
+    filter: invert(0%);
+}
+
+
+/* content */
+.content-description .content-hot {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.content-description .content-hot .hot-text {
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+
+    line-height: 1.6;
+    background-color: var(--normal-red);
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.content-description .content-text {
+    padding: 40px 0;
+}
+
+.content-description .content-color,
+.content-description .content-text {
+    text-align: left;
+    /* margin-left: 80px; */
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.content-description .content-text>div {
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.content-description .content-text>div>h3 {
+    color: rgb(132, 132, 132);
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.content-description .content-text>div>p {
+    color: var(--normal-red);
+    font-size: 50px;
+}
+
+.content-description .content-text>p,
+span {
+    color: rgb(36, 36, 36);
+    font-size: 20px;
+    line-height: 1.6;
+    text-transform: none;
+}
+
+.sub-text span {
+    font-size: 10px;
+    text-transform: none;
+}
+
+.content-description .content-text>div>span {
+    color: var(--normal-red);
+    font-size: 22px;
+    text-transform: lowercase;
+}
+
+.content-description .content-color {
+    padding: 20px 0;
+}
+
+.content-description .content-color>div {
+    padding: 10px 0;
+}
+
+.content-description .content-color h3 {
+    width: 100px;
+}
+
+.content-description .content-color>div>span {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.content-description .hot-button>button {
+    background-color: var(--normal-red);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* product-subslide */
+.product-subslide {
+    margin-top: 50px;
+    background-color: rgb(248, 215, 226);
+    padding: 20px
+}
+
+.product-subslide .subslide-content {
+    padding: 40px 20px;
+}
+
+.product-subslide .subslide-content .subslide-icon {
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+}
+
+.product-subslide .subslide-content h3 {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+
+    line-height: 1.6;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+.product-subslide .subslide-content p {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+
+    padding: 0px 10px;
+    margin: 0 10px;
+}
+
+.product-subslide .subslide-content .subslide-icon .subslide-link img {
+    width: 100%;
+}
+
+/* product-info */
+.product-info {
+    margin-top: 50px;
+}
+
+.product-info .info-heading {
+    color: rgb(84, 84, 84);
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.6;
+    padding: 20px 0 40px;
+}
+
+.product-info p {
+    text-transform: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: justify;
+
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.info-icon {
+    margin: 20px 0;
+}
+
+.info-icon>div {
+    width: 30px;
+    height: 45px;
+    margin: 0 20px;
+}
+
+/* profuct-image */
+.product-image {
+    color: rgb(36, 36, 36);
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.product-image .image-heading {
+    font-size: 30px;
+    line-height: 1.6;
+    color: rgb(36, 36, 36);
+    text-transform: uppercase;
+    padding: 30px 0;
+}
+
+/*product-salient*/
+.product-salient {}
+
+.product-salient .salient-heading h3 {
+    color: rgb(84, 84, 84);
+    font-size: 30px;
+    line-height: 1.6;
+    text-transform: uppercase;
+    padding: 30px 0;
+}
+
+.product-salient .salient-box>div {
+    background-color: rgb(248, 215, 226);
+    border-radius: 15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.product-salient .salient-box>div>h3 {
+    color: rgb(84, 84, 84);
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.product-salient .salient-box>div>p {
+    font-size: 16px;
+    color: rgb(36, 36, 36);
+    font-size: 16px;
+    font-weight: bold;
+
+    text-align: center;
+    line-height: 1.6;
+    padding: 10px 10px 30px;
+    height: 80px;
+}
+
+/* product-benefit */
+.product-benefit {}
+
+.product-benefit .benefit-heading {
+    color: rgb(84, 84, 84);
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.6;
+
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.product-benefit .benefit-box>div {
+    background-color: rgb(248, 215, 226);
+    border-radius: 15px;
+    margin: 30px 0;
+    padding: 30px 40px;
+}
+
+.product-benefit .benefit-box>div>span {
+    font-size: 20px;
+    display: block;
+}
+
+/* product-size */
+.product-size {
+    margin-bottom: 40px;
+}
+
+.product-size .size-heading {
+    color: rgb(132, 132, 132);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+
+    line-height: 1;
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+
+/* product-order */
+.product-order {
+    margin-bottom: 35px;
+}
+
+.product-order .order-image {
+    margin-top: 40px;
+    opacity: 0.5;
+}
+
+.product-order .order-step {
+    position: absolute;
+    width: 80%;
+    top: 15%;
+    left: 40px;
+}
+
+.product-order .order-step .step-heading {
+    margin-bottom: 60px;
+    color: rgb(36, 36, 36);
+    font-size: 22px;
+    font-weight: bold;
+
+    text-align: center;
+    line-height: 1.6;
+    text-transform: uppercase;
+}
+
+.product-order .order-step p {
+    text-transform: none;
+}
+
+.product-order .order-heading {
+    color: rgb(84, 84, 84);
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+
+    line-height: 1.6;
+    text-transform: uppercase;
+}
+
+.product-order .order-form {}
+
+.product-order .order-form .order-button {
+    max-width: 160px;
+    margin: 20px auto 0;
+}
+
+.product-order .order-form .order-button>button {
+    background-color: var(--normal-red);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+    width: 100%;
+}
+
+.product-order .order-form>div select,
+.product-order .order-form>div>input {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    min-height: 40px;
+}
+
+.product-order .order-form .order-select {
+    gap: 20px
+}
+
+/* commit-content */
+.commit-content h4 {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+    text-transform: none;
+}
+
+.commit-content p,
+.commit-content span {
+    font-size: 16px;
+    text-transform: none;
+}
+
+/* chinh-sach-doi-tra */
+.policy-heading {
+    color: var(--dark-color);
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 20px 0;
+}
+
+.change-policy h1 {
+    padding: 20px 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--dark-color);
+    font-weight: bold;
+}
+
+.change-policy .policy-content {
+    margin-top: 30px;
+}
+
+.change-policy .policy-content h3 {
+    padding: 10px 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: var(--dark-color);
+
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.change-policy .policy-content span,
+.change-policy .policy-content p {
+    font-size: 14px;
+    color: var(--dark-color);
+    line-height: 36px;
+    text-transform: none;
+
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* order-button */
+.purchase-button {
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    height: 40px;
+    width: 140px;
+}
+
+.purchase-btn {
+    background-color: var(--normal-red);
+    width: 100%;
+    height: 100%;
+}
+
+.purchase-btn:hover {
+    color: #fff;
+}
+
+.page-banner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.page-banner .banner-image {
+    background-image: url('https://w.ladicdn.com/s1600x1100/5da7f867ef0fd55535fbbfe8/web-20220202143509.jpg');
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-origin: content-box;
+
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+}
+
+.product-subslide.product-subslide--nappy {
+    background-color: #fff;
+}
+
+.combo-hot {
+    background-color: rgb(221, 240, 254);
+    padding: 10px 0;
+}
+
+.combo-hot .combo-content {
+    margin: 10px 0;
+}
+
+.combo-hot .combo-content span {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.6;
+
+    display: inline-block;
+    width: 130px;
+}
+
+.combo-hot .combo-content .promotional p {
+    color: var(--normal-red);
+    font-size: 34px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.combo-hot .combo-content .cost p {
+    color: #000;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1.6;
+    margin-left: 20px;
+    text-decoration: line-through;
+}
+
+.combo-hot .combo-content .save p {
+    color: rgb(23, 100, 200);
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+.product-introduce {
+    margin: 40px 0;
+}
+
+.heading-text {
+    color: rgb(84, 84, 84);
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.6;
+    text-transform: none;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.product-introduce .introduce-text div>p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6;
+    text-transform: none;
+}
+
+.product-introduce .introduce-text div p strong {
+    text-transform: none;
+}
+
+.introduce-button {
+    height: 40px;
+    width: 140px;
+    margin: 0 auto;
+}
+
+.introduce-image {
+    width: 100%;
+    height: 800px;
+    margin: 50px 0;
+}
+
+.introduce-image .image {
+    background-image: url('https://w.ladicdn.com/s1600x1100/5da7f867ef0fd55535fbbfe8/web-20220202143509.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-outstanding {
+    background-color: rgb(221, 240, 254);
+}
+
+.product-outstanding .outstanding-content {
+    padding: 20px 0;
+}
+
+.product-outstanding .outstanding-image {
+    width: 100%;
+    height: 800px;
+}
+
+.product-outstanding .outstanding-image .image {
+    background-image: url('https://w.ladicdn.com/s1050x1250/5da7f867ef0fd55535fbbfe8/4_2-20210523081509.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-outstanding .sub-content {
+    padding-bottom: 80px;
+}
+
+.product-outstanding .sub-content .row {
+    gap: 30px;
+}
+
+.product-outstanding .sub-content .row .flex-1 {
+    flex: 1;
+}
+
+.product-outstanding .sub-content .sub-description .description-image {
+    width: 100%;
+    height: 320px;
+}
+
+.product-outstanding .sub-content .sub-description .description-image .img {
+    background-image: url('https://w.ladicdn.com/s600x650/5da7f867ef0fd55535fbbfe8/4_1-20210610060332.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-outstanding .sub-content .sub-description p {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    text-align: justify;
+    line-height: 1.6;
+    text-transform: none;
+}
+
+.product-outstanding .sub-content .sub-description p strong {
+    text-transform: none;
+}
+
+.product-outstanding .sub-content .sub-image {
+    width: 100%;
+    height: 480px;
+}
+
+.product-outstanding .sub-content .sub-image .img {
+    background-image: url('https://w.ladicdn.com/s700x800/5da7f867ef0fd55535fbbfe8/4_3-20210523081510.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product-outstanding .outstanding-image.lightpink-image .image {
+    background-image: url('https://w.ladicdn.com/s1050x1250/5da7f867ef0fd55535fbbfe8/5_5-20210903041000.jpg');
+}
+
+.product-outstanding .sub-content .sub-description .description-image.lightpink-image .img {
+    background-image: url('https://w.ladicdn.com/s600x650/5da7f867ef0fd55535fbbfe8/3_6-20210903040941.jpg');
+}
+
+.product-outstanding .sub-content .sub-image.lightpink-image .img {
+    background-image: url('https://w.ladicdn.com/s700x800/5da7f867ef0fd55535fbbfe8/6-20210903041444.jpg');
+}
+
+.product-outstanding.color--light-blue {
+    background-color: rgb(215, 237, 233);
+    padding-bottom: 80px;
+
+}
+
+.product-outstanding.color--light-blue .outstanding-image .image {
+    background-image: url('https://w.ladicdn.com/s1050x1250/5da7f867ef0fd55535fbbfe8/7-20220202150713.jpg');
+    background-size: contain;
+}
+
+.product-introduce .product-diversity {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.product-introduce .product-diversity .diversity-content .content-text span {
+    color: rgb(36, 36, 36);
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: 400;
+}
