@@ -130,10 +130,8 @@
     font-size: 50px;
 }
 
-.content-description .content-text>p,
-span {
+.content-description .content-text>p, span {
     color: rgb(36, 36, 36);
-    font-size: 20px;
     line-height: 1.6;
     text-transform: none;
 }

@@ -1,0 +1,86 @@
+.account-title>a{
+	font-size: 11px;
+	color: var(--dark-color);
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.nav-list {
+	list-style: none;
+}
+
+.nav-list .list-item {
+	padding: 15px 0
+}
+
+.nav-list .list-item .item-link{
+	font-size: 11px;
+	color: var(--dark-color);
+	text-transform: uppercase;
+}
+
+.box-container {
+	gap: 20px;
+}
+
+.card:nth-child(1) {
+	flex: unset;
+}
+
+.card {
+	flex: 1
+}
+
+.content-box {
+
+}
+
+.content-box .content-list{
+	list-style: none;
+	margin-bottom: 0
+}
+
+.content-box .content-list .content-item{
+	padding: 5px 0;
+	font-size: 12px
+}
+
+.content-box .content-list .content-item span{
+	min-width: 100px;
+	display: inline-block;
+}
+
+.content-box .icon{
+	font-size: 25px;
+	padding: 10px
+}
+
+.content-box .box-title{
+	text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 11px
+
+}
+
+.content-box .info{
+    margin-top: 18px;
+    margin-bottom: 0;
+    min-height: 45px;
+    font-size: 11px
+}
+.content-box .box-button {
+	height: 35px;
+    line-height: 13px;
+    color: #fff !important;
+    background-color: #505252;
+    border-color: #505252;
+    width: unset;
+}
+
+.account-logout {
+	    font-size: 11px;
+    text-transform: uppercase;
+    color: var(--dark-color)
+}
